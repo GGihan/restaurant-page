@@ -1,5 +1,6 @@
 import { createHomePage } from "./createHomePage.js";
 import { createMenuPage } from "./menu.js";
+import { createAboutPage } from "./about.js";
 import "./styles.css";
 
 
@@ -34,6 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menuButton.addEventListener("click", () => {
         switchContent(createMenuPage, contentContainer);
+    });
+
+    aboutButton.addEventListener("click", () => {
+        switchContent(createAboutPage, contentContainer);
     });
 
 });

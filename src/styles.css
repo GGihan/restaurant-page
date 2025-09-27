@@ -54,6 +54,10 @@ header button {
     gap: 10px;
 }
 
+.home-container p {
+    font-size: 1.25rem;
+}
+
 .home-container img {
     border-radius: 10px;
 }
@@ -79,4 +83,20 @@ header button {
 .menu-container li {
     list-style: none;
     font-size: 1.5rem;
+}
+
+/* ABOUT PAGE STYLES */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-container h1 {
+    text-align: center;
+}
+
+.about-container p {
+    font-size: 1.25rem;
 }
