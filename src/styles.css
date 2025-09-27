@@ -29,7 +29,7 @@ header {
     width: 100%;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -39,7 +39,7 @@ nav {
     
 }
 
-button {
+header button {
     width: 100px;
     height: 35px;
 }
@@ -59,3 +59,24 @@ button {
 }
 
 /* MENU PAGE STYLES */
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    gap: 20px;
+    height: 200px;
+}
+
+.menu-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-container li {
+    list-style: none;
+    font-size: 1.5rem;
+}

@@ -9,9 +9,9 @@ function createMenuPage() {
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu-container");
 
-    const h2 = document.createElement("h2");
-    h2.textContent = "Our Delicious Menu";
-    menuContainer.appendChild(h2);
+    const h1 = document.createElement("h1");
+    h1.textContent = "Our Delicious Menu:";
+    menuContainer.appendChild(h1);
 
     const ul = document.createElement("ul");
     ul.appendChild(createMenuItem("Spaghetti Carbonara", "15"));
