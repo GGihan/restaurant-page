@@ -1,3 +1,5 @@
+import RestaurantFoodImage from "./images/restaurant-food.jpg";
+
 function createHomePage() {
 
     const homeContainer = document.createElement("div");
@@ -20,7 +22,7 @@ function createHomePage() {
 
     const img = document.createElement("img")
 
-    img.src = "./images/restaurant-food.jpg"; 
+    img.src = RestaurantFoodImage;
     img.alt = "Food served on tables in a restaurant";
 
     imageContainer.appendChild(img);
