@@ -14,16 +14,22 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const menuButton = document.getElementById("menu-button");
-
-    const loadMenu = () => {
+    const switchContent = (pageGenerator) => {
         contentContainer.innerHTML = "";
 
-        const menuElement = createMenuPage();
-        contentContainer.appendChild(menuElement);
+        const newPageElement = pageGenerator();
+        contentContainer.appendChild(newPageElement);
 
-        console.log("Menu Page Loaded");
+        console.log("Page Loaded");
     };
 
-    menuButton.addEventListener("click", loadMenu);
+    const homeButton = document.getElementById("home-button");
+    const menuButton = document.getElementById("menu-button");
+    const aboutButton = document.getElementById("about-button");
+
+    menuButton.addEventListener("click", () => {
+        switchContent(createMenuPage);
+    });
+
+    
 });
