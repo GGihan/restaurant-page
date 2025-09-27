@@ -20,7 +20,7 @@ function createHomePage() {
 
     const img = document.createElement("img")
 
-    img.src = "/images/restaurant-food.jpg"; 
+    img.src = "./images/restaurant-food.jpg"; 
     img.alt = "Food served on tables in a restaurant";
 
     imageContainer.appendChild(img);
