@@ -116,7 +116,17 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHomePage: () => (/* binding */ createHomePage)\n/* harmony export */ });\nfunction createHomePage() {\n\n    const homeContainer = document.createElement(\"div\");\n    homeContainer.classList.add(\"home-container\");\n\n    const headlineContainer = document.createElement(\"div\");\n    headlineContainer.classList.add(\"headline-container\");\n\n    const h1 = document.createElement(\"h1\");\n    h1.textContent = \"Restaurant!\";\n\n    const h2 = document.createElement(\"h2\");\n    h2.textContent = \"The most delicious and fresh meals!\";\n\n    headlineContainer.appendChild(h1);\n    headlineContainer.appendChild(h2);\n\n    const imageContainer =  document.createElement(\"div\");\n    imageContainer.classList.add(\"image-container\");\n\n    const img = document.createElement(\"img\")\n\n    img.src = \"/images/restaurant-food.jpg\"; \n    img.alt = \"Food served on tables in a restaurant\";\n\n    imageContainer.appendChild(img);\n\n    const descriptionContainer = document.createElement(\"div\");\n    descriptionContainer.classList.add(\"description-container\");\n\n    const p = document.createElement(\"p\");\n    p.textContent = `\n        In hac habitasse platea dictumst.\n        Aliquam in lorem porta, fringilla turpis vel, semper quam.\n        Aliquam ut rutrum nunc. Donec elementum.\n    `;\n\n    descriptionContainer.appendChild(p);\n\n    homeContainer.appendChild(headlineContainer);\n    homeContainer.appendChild(imageContainer);\n    homeContainer.appendChild(descriptionContainer);\n\n    console.log(\"Initial content built.\");\n\n    return homeContainer; \n}\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY3JlYXRlSG9tZVBhZ2UuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBOztBQUVBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTtBQUNBOztBQUVBOztBQUVBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZXN0YXVyYW50LXBhZ2UvLi9zcmMvY3JlYXRlSG9tZVBhZ2UuanM/YjA5MyJdLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBjcmVhdGVIb21lUGFnZSgpIHtcblxuICAgIGNvbnN0IGhvbWVDb250YWluZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGhvbWVDb250YWluZXIuY2xhc3NMaXN0LmFkZChcImhvbWUtY29udGFpbmVyXCIpO1xuXG4gICAgY29uc3QgaGVhZGxpbmVDb250YWluZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGhlYWRsaW5lQ29udGFpbmVyLmNsYXNzTGlzdC5hZGQoXCJoZWFkbGluZS1jb250YWluZXJcIik7XG5cbiAgICBjb25zdCBoMSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJoMVwiKTtcbiAgICBoMS50ZXh0Q29udGVudCA9IFwiUmVzdGF1cmFudCFcIjtcblxuICAgIGNvbnN0IGgyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImgyXCIpO1xuICAgIGgyLnRleHRDb250ZW50ID0gXCJUaGUgbW9zdCBkZWxpY2lvdXMgYW5kIGZyZXNoIG1lYWxzIVwiO1xuXG4gICAgaGVhZGxpbmVDb250YWluZXIuYXBwZW5kQ2hpbGQoaDEpO1xuICAgIGhlYWRsaW5lQ29udGFpbmVyLmFwcGVuZENoaWxkKGgyKTtcblxuICAgIGNvbnN0IGltYWdlQ29udGFpbmVyID0gIGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gICAgaW1hZ2VDb250YWluZXIuY2xhc3NMaXN0LmFkZChcImltYWdlLWNvbnRhaW5lclwiKTtcblxuICAgIGNvbnN0IGltZyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJpbWdcIilcblxuICAgIGltZy5zcmMgPSBcIi9pbWFnZXMvcmVzdGF1cmFudC1mb29kLmpwZ1wiOyBcbiAgICBpbWcuYWx0ID0gXCJGb29kIHNlcnZlZCBvbiB0YWJsZXMgaW4gYSByZXN0YXVyYW50XCI7XG5cbiAgICBpbWFnZUNvbnRhaW5lci5hcHBlbmRDaGlsZChpbWcpO1xuXG4gICAgY29uc3QgZGVzY3JpcHRpb25Db250YWluZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGRlc2NyaXB0aW9uQ29udGFpbmVyLmNsYXNzTGlzdC5hZGQoXCJkZXNjcmlwdGlvbi1jb250YWluZXJcIik7XG5cbiAgICBjb25zdCBwID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcInBcIik7XG4gICAgcC50ZXh0Q29udGVudCA9IGBcbiAgICAgICAgSW4gaGFjIGhhYml0YXNzZSBwbGF0ZWEgZGljdHVtc3QuXG4gICAgICAgIEFsaXF1YW0gaW4gbG9yZW0gcG9ydGEsIGZyaW5naWxsYSB0dXJwaXMgdmVsLCBzZW1wZXIgcXVhbS5cbiAgICAgICAgQWxpcXVhbSB1dCBydXRydW0gbnVuYy4gRG9uZWMgZWxlbWVudHVtLlxuICAgIGA7XG5cbiAgICBkZXNjcmlwdGlvbkNvbnRhaW5lci5hcHBlbmRDaGlsZChwKTtcblxuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoaGVhZGxpbmVDb250YWluZXIpO1xuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoaW1hZ2VDb250YWluZXIpO1xuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoZGVzY3JpcHRpb25Db250YWluZXIpO1xuXG4gICAgY29uc29sZS5sb2coXCJJbml0aWFsIGNvbnRlbnQgYnVpbHQuXCIpO1xuXG4gICAgcmV0dXJuIGhvbWVDb250YWluZXI7IFxufVxuXG5cbmV4cG9ydCB7IGNyZWF0ZUhvbWVQYWdlIH07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/createHomePage.js\n\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHomePage: () => (/* binding */ createHomePage)\n/* harmony export */ });\n/* harmony import */ var _images_restaurant_food_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/restaurant-food.jpg */ \"./src/images/restaurant-food.jpg\");\n\n\nfunction createHomePage() {\n\n    const homeContainer = document.createElement(\"div\");\n    homeContainer.classList.add(\"home-container\");\n\n    const headlineContainer = document.createElement(\"div\");\n    headlineContainer.classList.add(\"headline-container\");\n\n    const h1 = document.createElement(\"h1\");\n    h1.textContent = \"Restaurant!\";\n\n    const h2 = document.createElement(\"h2\");\n    h2.textContent = \"The most delicious and fresh meals!\";\n\n    headlineContainer.appendChild(h1);\n    headlineContainer.appendChild(h2);\n\n    const imageContainer =  document.createElement(\"div\");\n    imageContainer.classList.add(\"image-container\");\n\n    const img = document.createElement(\"img\")\n\n    img.src = _images_restaurant_food_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    img.alt = \"Food served on tables in a restaurant\";\n\n    imageContainer.appendChild(img);\n\n    const descriptionContainer = document.createElement(\"div\");\n    descriptionContainer.classList.add(\"description-container\");\n\n    const p = document.createElement(\"p\");\n    p.textContent = `\n        In hac habitasse platea dictumst.\n        Aliquam in lorem porta, fringilla turpis vel, semper quam.\n        Aliquam ut rutrum nunc. Donec elementum.\n    `;\n\n    descriptionContainer.appendChild(p);\n\n    homeContainer.appendChild(headlineContainer);\n    homeContainer.appendChild(imageContainer);\n    homeContainer.appendChild(descriptionContainer);\n\n    console.log(\"Initial content built.\");\n\n    return homeContainer; \n}\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY3JlYXRlSG9tZVBhZ2UuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBK0Q7O0FBRS9EOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBOztBQUVBLGNBQWMsd0RBQW1CO0FBQ2pDOztBQUVBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVzdGF1cmFudC1wYWdlLy4vc3JjL2NyZWF0ZUhvbWVQYWdlLmpzP2IwOTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlc3RhdXJhbnRGb29kSW1hZ2UgZnJvbSBcIi4vaW1hZ2VzL3Jlc3RhdXJhbnQtZm9vZC5qcGdcIjtcblxuZnVuY3Rpb24gY3JlYXRlSG9tZVBhZ2UoKSB7XG5cbiAgICBjb25zdCBob21lQ29udGFpbmVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKTtcbiAgICBob21lQ29udGFpbmVyLmNsYXNzTGlzdC5hZGQoXCJob21lLWNvbnRhaW5lclwiKTtcblxuICAgIGNvbnN0IGhlYWRsaW5lQ29udGFpbmVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImRpdlwiKTtcbiAgICBoZWFkbGluZUNvbnRhaW5lci5jbGFzc0xpc3QuYWRkKFwiaGVhZGxpbmUtY29udGFpbmVyXCIpO1xuXG4gICAgY29uc3QgaDEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiaDFcIik7XG4gICAgaDEudGV4dENvbnRlbnQgPSBcIlJlc3RhdXJhbnQhXCI7XG5cbiAgICBjb25zdCBoMiA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJoMlwiKTtcbiAgICBoMi50ZXh0Q29udGVudCA9IFwiVGhlIG1vc3QgZGVsaWNpb3VzIGFuZCBmcmVzaCBtZWFscyFcIjtcblxuICAgIGhlYWRsaW5lQ29udGFpbmVyLmFwcGVuZENoaWxkKGgxKTtcbiAgICBoZWFkbGluZUNvbnRhaW5lci5hcHBlbmRDaGlsZChoMik7XG5cbiAgICBjb25zdCBpbWFnZUNvbnRhaW5lciA9ICBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGltYWdlQ29udGFpbmVyLmNsYXNzTGlzdC5hZGQoXCJpbWFnZS1jb250YWluZXJcIik7XG5cbiAgICBjb25zdCBpbWcgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiaW1nXCIpXG5cbiAgICBpbWcuc3JjID0gUmVzdGF1cmFudEZvb2RJbWFnZTtcbiAgICBpbWcuYWx0ID0gXCJGb29kIHNlcnZlZCBvbiB0YWJsZXMgaW4gYSByZXN0YXVyYW50XCI7XG5cbiAgICBpbWFnZUNvbnRhaW5lci5hcHBlbmRDaGlsZChpbWcpO1xuXG4gICAgY29uc3QgZGVzY3JpcHRpb25Db250YWluZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwiZGl2XCIpO1xuICAgIGRlc2NyaXB0aW9uQ29udGFpbmVyLmNsYXNzTGlzdC5hZGQoXCJkZXNjcmlwdGlvbi1jb250YWluZXJcIik7XG5cbiAgICBjb25zdCBwID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcInBcIik7XG4gICAgcC50ZXh0Q29udGVudCA9IGBcbiAgICAgICAgSW4gaGFjIGhhYml0YXNzZSBwbGF0ZWEgZGljdHVtc3QuXG4gICAgICAgIEFsaXF1YW0gaW4gbG9yZW0gcG9ydGEsIGZyaW5naWxsYSB0dXJwaXMgdmVsLCBzZW1wZXIgcXVhbS5cbiAgICAgICAgQWxpcXVhbSB1dCBydXRydW0gbnVuYy4gRG9uZWMgZWxlbWVudHVtLlxuICAgIGA7XG5cbiAgICBkZXNjcmlwdGlvbkNvbnRhaW5lci5hcHBlbmRDaGlsZChwKTtcblxuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoaGVhZGxpbmVDb250YWluZXIpO1xuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoaW1hZ2VDb250YWluZXIpO1xuICAgIGhvbWVDb250YWluZXIuYXBwZW5kQ2hpbGQoZGVzY3JpcHRpb25Db250YWluZXIpO1xuXG4gICAgY29uc29sZS5sb2coXCJJbml0aWFsIGNvbnRlbnQgYnVpbHQuXCIpO1xuXG4gICAgcmV0dXJuIGhvbWVDb250YWluZXI7IFxufVxuXG5cbmV4cG9ydCB7IGNyZWF0ZUhvbWVQYWdlIH07Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/createHomePage.js\n\n}");
+
+/***/ }),
+
+/***/ "./src/images/restaurant-food.jpg":
+/*!****************************************!*\
+  !*** ./src/images/restaurant-food.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3b9164f7c6dca2e61ce2.jpg";
 
 /***/ }),
 
@@ -201,6 +211,18 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -215,6 +237,29 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
