@@ -1,11 +1,17 @@
-import { initializePage } from "./initialLoad.js";
+import { createHomePage } from "./createHomePage.js";
 import { createMenuPage } from "./menu.js";
 import "./styles.css";
 
-console.log("Webpack is working!");
+
+
+const switchContent = (pageGenerator, container) => {
+    container.innerHTML = "";
+
+    const newPageElement = pageGenerator();
+    container.appendChild(newPageElement);
+};
 
 document.addEventListener('DOMContentLoaded', () => {
-    initializePage();
 
     const contentContainer = document.getElementById("content");
 
@@ -14,22 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const switchContent = (pageGenerator) => {
-        contentContainer.innerHTML = "";
+    // Initial Home Page Load
+    switchContent(createHomePage, contentContainer);
 
-        const newPageElement = pageGenerator();
-        contentContainer.appendChild(newPageElement);
-
-        console.log("Page Loaded");
-    };
 
     const homeButton = document.getElementById("home-button");
     const menuButton = document.getElementById("menu-button");
     const aboutButton = document.getElementById("about-button");
 
+    homeButton.addEventListener("click", () => {
+        switchContent(createHomePage, contentContainer);
+    })
+
     menuButton.addEventListener("click", () => {
-        switchContent(createMenuPage);
+        switchContent(createMenuPage, contentContainer);
     });
 
-    
 });

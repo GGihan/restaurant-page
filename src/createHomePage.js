@@ -1,14 +1,7 @@
-function initializePage() {
-    console.log("Page Initialization Started")
+function createHomePage() {
 
-    const contentContainer = document.getElementById("content");
-
-    if (!contentContainer) {
-        console.error("The #content div was not found in the HTML.");
-        return;
-    }
-
-    contentContainer.innerHTML = "";
+    const homeContainer = document.createElement("div");
+    homeContainer.classList.add("home-container");
 
     const headlineContainer = document.createElement("div");
     headlineContainer.classList.add("headline-container");
@@ -44,12 +37,14 @@ function initializePage() {
 
     descriptionContainer.appendChild(p);
 
-    contentContainer.appendChild(headlineContainer);
-    contentContainer.appendChild(imageContainer);
-    contentContainer.appendChild(descriptionContainer);
+    homeContainer.appendChild(headlineContainer);
+    homeContainer.appendChild(imageContainer);
+    homeContainer.appendChild(descriptionContainer);
 
     console.log("Initial content built.");
+
+    return homeContainer; 
 }
 
 
-export { initializePage };
+export { createHomePage };
