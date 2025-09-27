@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 * {
     padding: 0;
     margin: 0;
@@ -14,16 +16,13 @@ body {
     gap: 20px;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/*  MAIN CONTENT STYLES */
 
+#content {
     width: 700px;
     background-color: bisque;
     border-radius: 10px;
     padding: 15px;
-    gap: 10px;
 }
 
 header {
@@ -45,6 +44,18 @@ button {
     height: 35px;
 }
 
-img {
+/* HOME PAGE STYLES */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.home-container img {
     border-radius: 10px;
 }
+
+/* MENU PAGE STYLES */
